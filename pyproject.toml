@@ -8,6 +8,7 @@ authors = ["Georgios Konstantopoulos <me@gakonst.com>"]
 python = "^3.7"
 pandas = "^1.0.4"
 matplotlib = "^3.2.1"
+numpy = "^1.18.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
