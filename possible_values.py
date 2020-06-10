@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # possible values between 0.875-1.125 of the basefee
 initial_basefee = 100.0
-x = np.linspace(0, 100) # simulate over 100 blocks
+x = np.linspace(0, 10) # simulate over 10 blocks
 y1 = initial_basefee * (1 + 0.125)**x
 y2 = initial_basefee * (1 - 0.125)**x
 
