@@ -9,6 +9,7 @@ python = "^3.7"
 pandas = "^1.0.4"
 matplotlib = "^3.2.1"
 numpy = "^1.18.4"
+google-cloud-bigquery = {extras = ["bqstorage", "pandas"], version = "^1.25.0"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
