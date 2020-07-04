@@ -9,8 +9,9 @@ y1 = initial_basefee * (1 + 0.125)**x
 y2 = initial_basefee * (1 - 0.125)**x
 
 fix, ax = plt.subplots()
-ax.set_title("MAX/MIN_BASEFEE_i = (1±0.125)^i * BASEFEE")
+ax.set_title("MAX/MIN_BASEFEE_i = (1±0.125)^i * BASEFEE", fontsize = 38)
 ax.fill_between(x, y1, y2)
-ax.set_ylabel("Gas Price")
-ax.set_xlabel("Number of blocks until transaction gets confirmed")
+ax.set_ylabel("Gas Price", fontsize = 32)
+ax.set_xlabel("Number of blocks until transaction gets confirmed", fontsize = 32)
+ax.tick_params(axis='both', which='major', labelsize=28)
 plt.show()
